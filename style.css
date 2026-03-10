@@ -48,3 +48,56 @@ nav a:hover{
 section{
     padding:100px 10%;
 }
+.hero-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+}
+.hero-left{
+    flex:1;
+}
+.hero-right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+.hero-right img{
+    width: 100%;
+    max-width:350px;
+    border-radius:12px;
+    box-shadow:0 15px 40px;
+    rgba(0,0,0,0.6), 
+                    0 0 20px
+    rrgba(37,99,235,0.25);
+}
+.hero-left h1{
+    font-size:48px;
+    margin:10px 0;
+}
+.hero-left h2{
+    font-size:28px;
+    color:#2563eb;
+}
+.hero-left p{
+    margin:20px;
+    line-height:1.6;
+}
+.hero-buttons{
+    display:flex;
+    gap:20px;
+}
+.hero-buttons a{
+    display:inline-block;
+    padding:12px 24px;
+    background:#2563eb;
+    color:white;
+    border-radius:8px;
+    font-weight:500;
+    transition:0.3s;
+}
+.hero-buttons a:hover{
+    background:#1e40af;
+    transform:translateY(-2px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
