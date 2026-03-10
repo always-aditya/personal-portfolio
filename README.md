@@ -26,6 +26,4 @@ portfolio/
 ## 🎯 Purpose
 This project is part of my learning journey in frontend development. It demonstrates my ability to build modern UI layouts and responsive designs.
 ## 📬 Contact
-Feel free to connect with me if you have any suggestions or opportunitie
-## 📬 Contact
 Feel free to connect with me if you have any suggestions or opportunities.
